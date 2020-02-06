@@ -767,11 +767,6 @@ namespace HorizonInjector_CrackedByKade
 		{
 		}
 
-		// Token: 0x0600005A RID: 90 RVA: 0x000022B4 File Offset: 0x000004B4
-		private void metroSetTabPage_2_Click(object sender, EventArgs e)
-		{
-		}
-
 		// Token: 0x0600005B RID: 91 RVA: 0x000022B6 File Offset: 0x000004B6
 		private void method_2(object sender, DownloadProgressChangedEventArgs e)
 		{

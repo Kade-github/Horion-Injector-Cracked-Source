@@ -66,7 +66,7 @@ namespace HorizonInjector_CrackedByKade
             this.metroSetTabControl_0.ItemSize = new System.Drawing.Size(200, 30);
             this.metroSetTabControl_0.Location = new System.Drawing.Point(2, 33);
             this.metroSetTabControl_0.Name = "metroSetTabControl_0";
-            this.metroSetTabControl_0.SelectedIndex = 1;
+            this.metroSetTabControl_0.SelectedIndex = 3;
             this.metroSetTabControl_0.Size = new System.Drawing.Size(700, 371);
             this.metroSetTabControl_0.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.metroSetTabControl_0.Speed = 5;
@@ -176,6 +176,7 @@ namespace HorizonInjector_CrackedByKade
             this.metroSetButton_0.Text = "INJECT";
             this.metroSetButton_0.ThemeAuthor = "Narwin";
             this.metroSetButton_0.ThemeName = "MetroDark";
+            this.metroSetButton_0.Click += new System.EventHandler(this.metroSetButton_1_Click);
             // 
             // metroSetTabPage_1
             // 
@@ -265,6 +266,7 @@ namespace HorizonInjector_CrackedByKade
             this.metroSetButton_4.Text = "Inject";
             this.metroSetButton_4.ThemeAuthor = "Narwin";
             this.metroSetButton_4.ThemeName = "MetroDark";
+            this.metroSetButton_4.Click += new System.EventHandler(this.metroSetButton_4_Click);
             // 
             // metroSetButton_3
             // 
@@ -290,6 +292,7 @@ namespace HorizonInjector_CrackedByKade
             this.metroSetButton_3.Text = "Login";
             this.metroSetButton_3.ThemeAuthor = "Narwin";
             this.metroSetButton_3.ThemeName = "MetroDark";
+            this.metroSetButton_3.Click += new System.EventHandler(this.metroSetButton_3_Click);
             // 
             // metroSetProgressBar_1
             // 
@@ -391,6 +394,7 @@ namespace HorizonInjector_CrackedByKade
             this.metroSetButton_1.Text = "Inject";
             this.metroSetButton_1.ThemeAuthor = "Narwin";
             this.metroSetButton_1.ThemeName = "MetroDark";
+            this.metroSetButton_1.Click += new System.EventHandler(this.metroSetButton_1_Click);
             // 
             // metroSetProgressBar_2
             // 
@@ -469,6 +473,7 @@ namespace HorizonInjector_CrackedByKade
             this.metroSetButton_2.Text = "Locate";
             this.metroSetButton_2.ThemeAuthor = "Narwin";
             this.metroSetButton_2.ThemeName = "MetroDark";
+            this.metroSetButton_2.Click += new System.EventHandler(this.metroSetButton_2_Click);
             // 
             // metroSetTabPage_3
             // 
@@ -536,21 +541,21 @@ namespace HorizonInjector_CrackedByKade
             this.metroSetLabel_6.Style = MetroSet_UI.Design.Style.Dark;
             this.metroSetLabel_6.StyleManager = null;
             this.metroSetLabel_6.TabIndex = 0;
-            this.metroSetLabel_6.Text = "If you have injection issues, please try the following steps:\r\n  - Join the horio" +
-    "n discord\r\n  - Ask for help";
+            this.metroSetLabel_6.Text = "Source dumped by KadeDev on github! (github.com/kadedev)\r\n- Don\'t use ConfuserEx " +
+    "Kiddos!";
             this.metroSetLabel_6.ThemeAuthor = "Narwin";
             this.metroSetLabel_6.ThemeName = "MetroDark";
             // 
             // metroSetLabel_7
             // 
             this.metroSetLabel_7.Font = new System.Drawing.Font("Yu Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.metroSetLabel_7.Location = new System.Drawing.Point(506, 2);
+            this.metroSetLabel_7.Location = new System.Drawing.Point(484, 2);
             this.metroSetLabel_7.Name = "metroSetLabel_7";
-            this.metroSetLabel_7.Size = new System.Drawing.Size(196, 44);
+            this.metroSetLabel_7.Size = new System.Drawing.Size(218, 44);
             this.metroSetLabel_7.Style = MetroSet_UI.Design.Style.Light;
             this.metroSetLabel_7.StyleManager = null;
             this.metroSetLabel_7.TabIndex = 1;
-            this.metroSetLabel_7.Text = "discord.gg/horion";
+            this.metroSetLabel_7.Text = "Cracked by KadeDev";
             this.metroSetLabel_7.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.metroSetLabel_7.ThemeAuthor = "Narwin";
             this.metroSetLabel_7.ThemeName = "MetroLite";
@@ -588,7 +593,7 @@ namespace HorizonInjector_CrackedByKade
             this.ShowHeader = true;
             this.ShowLeftRect = false;
             this.Style = MetroSet_UI.Design.Style.Dark;
-            this.Text = "Horion Injector";
+            this.Text = "Horion Injector (Not Obfuscated)";
             this.TextColor = System.Drawing.Color.White;
             this.ThemeName = "MetroDark";
             this.metroSetTabControl_0.ResumeLayout(false);
